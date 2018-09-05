@@ -1,0 +1,19 @@
+{
+  "name": "v7-cordova",
+  "version": "1.0.0",
+  "description": "Cordova client libraries supported by Wash",
+  "main": "cordova.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relluf/v7-cordova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relluf/v7-cordova/issues"
+  },
+  "homepage": "https://github.com/relluf/v7-cordova#readme"
+}
