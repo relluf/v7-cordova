@@ -158,7 +158,6 @@ console.count = noop;
 //------------------------------------------------------------------------------
 console.exception = console.log;
 
-
 //------------------------------------------------------------------------------
 console.table = function(data, columns) {
     console.log("%o", data);

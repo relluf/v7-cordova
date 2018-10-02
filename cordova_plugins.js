@@ -318,6 +318,14 @@ module.exports = [
     "clobbers": [
       "CameraPopoverHandle"
     ]
+  },
+  {
+    "id": "cordova-plugin-taptic-engine.TapticEngine",
+    "file": "plugins/cordova-plugin-taptic-engine/www/TapticEngine.js",
+    "pluginId": "cordova-plugin-taptic-engine",
+    "clobbers": [
+      "TapticEngine"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -335,7 +343,8 @@ module.exports.metadata =
   "cordova-plugin-wkwebview-engine": "1.1.4",
   "cordova-sqlite-storage": "2.3.3",
   "ionic-plugin-keyboard": "2.2.1",
-  "cordova-plugin-camera": "4.0.3"
+  "cordova-plugin-camera": "4.0.3",
+  "cordova-plugin-taptic-engine": "2.1.0"
 };
 // BOTTOM OF METADATA
 });
