@@ -326,6 +326,22 @@ module.exports = [
     "clobbers": [
       "TapticEngine"
     ]
+  },
+  {
+    "id": "cordova-plugin-email-composer.EmailComposer",
+    "file": "plugins/cordova-plugin-email-composer/www/email_composer.js",
+    "pluginId": "cordova-plugin-email-composer",
+    "clobbers": [
+      "cordova.plugins.email"
+    ]
+  },
+  {
+    "id": "cordova-clipboard.Clipboard",
+    "file": "plugins/cordova-clipboard/www/clipboard.js",
+    "pluginId": "cordova-clipboard",
+    "clobbers": [
+      "cordova.plugins.clipboard"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -344,7 +360,10 @@ module.exports.metadata =
   "cordova-sqlite-storage": "2.3.3",
   "ionic-plugin-keyboard": "2.2.1",
   "cordova-plugin-camera": "4.0.3",
-  "cordova-plugin-taptic-engine": "2.1.0"
+  "cordova-plugin-taptic-engine": "2.1.0",
+  "cordova-plugin-wkwebview-inputfocusfix": "1.0.4",
+  "cordova-plugin-email-composer": "0.9.2",
+  "cordova-clipboard": "1.3.0"
 };
 // BOTTOM OF METADATA
 });
